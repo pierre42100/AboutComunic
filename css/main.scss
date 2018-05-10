@@ -42,6 +42,7 @@ $theme-dark: #222;
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
+		"fonts",
         "mixins",
         "base"
 ;
