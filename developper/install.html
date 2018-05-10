@@ -1,0 +1,24 @@
+---
+layout: common/page
+title: Setup your Comunic Server
+subtitle: Use Docker to get started quickly with your own Comunic Server
+---
+
+<p>The easiest way to setup Comunic is to install it using our Docker image.</p>
+
+
+<h2>Requirements :</h2>
+<p>* Docker installed on a 64bit machine.</p>
+<p>* The port 80 of the machine must be available (The software can not be accessed through another port yet but we are working on it)</p>
+
+<p>&nbsp;</p>
+
+<h2>Installation:</h2>
+<p>Please use the following command:</p>
+<pre>docker run -ti --restart=always -p 80:80 --name="Comunic" pierre42100/comunic-dockersinglecontainer</pre>
+<p>The <code>--restart=always</code> argument is optionnal but strongly recommended in ordrer to be able to restart Comunic on machine reboot.</p>
+
+<p>&nbsp;</p>
+
+<h2>Usage</h2>
+<p>Please navigate to <i>http://{your_server_address}/</i> to use newly installed Comunic Server.</p>
