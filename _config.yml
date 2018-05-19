@@ -9,6 +9,9 @@ url: "http://127.0.0.1:4000" # the base hostname & protocol for your site
 #Comunic application URL
 app_url: "http://devweb.local/comunic/v2/"
 
+#Comunic Android Application URL
+play_store_url: "https://play.google.com/store/apps/details?id=org.communiquons.android.comunic.client"
+
 # Build settings
 markdown: kramdown
 highlighter: rouge
