@@ -10,7 +10,7 @@ baseurl: "" # the subpath of your site, e.g. /blog/ (If you use organization lea
 app_url: "https://communiquons.org/"
 
 #Comunic Android Application URL
-play_store_url: "https://play.google.com/store/apps/details?id=org.communiquons.android.comunic.client"
+play_store_url: "https://play.google.com/store/apps/details?id=org.communiquons.comunic"
 
 # Build settings
 markdown: kramdown
@@ -18,6 +18,3 @@ highlighter: rouge
 permalink: pretty
 paginate: 5
 exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
-
-gems: [jekyll-paginate, jekyll-feed]
-# Build settings
